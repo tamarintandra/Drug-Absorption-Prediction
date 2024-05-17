@@ -9,4 +9,5 @@ This code uses a Random Forest model to predict drug permeability across the cel
 
 ## Citation
 [1] Siramshetty V, Williams J, Nguyễn ÐT, Neyra J, Southall N, Mathé E, Xu X, Shah P. Validating ADME QSAR Models Using Marketed Drugs. SLAS Discov. 2021 Dec;26(10):1326-1336. doi: 10.1177/24725552211017520. Epub 2021 Jun 26. PMID: 34176369.
+
 [2] Landrum, G. 2010. “RDKit.” Q2. https://www.rdkit.org/.
