@@ -3,6 +3,9 @@ In the field of pharmaceutical research and development, the first step in ident
 
 This code uses a Random Forest model to predict drug permeability across the cellular membrane. A dataset comprising 2035 drug molecules was acquired from the publication "[**Validating ADME QSAR models using marketed drugs**](https://journals.sagepub.com/doi/full/10.1177/24725552211017520)" (2021) by Siramshetty *et al*. The ```tdc.single_pred``` library was utilized to import and define SMILES strings and labels in the dataset. Features were generated using the RDKit module. The model was first trained on the training set (70% split) and validated on the validation set (10% split), after which it was evaluated on the testing set (20% split). A five-fold cross-validation was also performed.
 
+## Installation
+All relevant packages are installed using pip. Please follow the instructions in [here](https://pip.pypa.io/en/stable/installation/) to install pip.
+
 ## Usage
 1. Open the ```permeability_prediction.ipynb``` file in Google Colab or Jupyter Notebook.
 2. The notebook contains the code to install all packages and requirements. Run all the cells in the notebook to observe.
